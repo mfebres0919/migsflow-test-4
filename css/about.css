@@ -611,22 +611,16 @@ body{
 
 .about__portrait{
   width: clamp(365px, 38vw, 520px);
-  aspect-ratio: 1 / 1;
-  border-radius: 999px;
-  overflow: hidden;
 }
 
 .about__portrait picture{
   display: block;
   width: 100%;
-  height: 100%;
 }
 
 .about__portrait img{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
   display:block;
 }
 
