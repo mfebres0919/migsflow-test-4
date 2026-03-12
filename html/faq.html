@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ================= FAQ.HTML HEAD ================= -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FAQ | MigsFlow Web Design</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Answers to common questions about working with MigsFlow, including pricing, timelines, hosting, edits, and what to expect during the website design and build process.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://migsflow.com/html/faq.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://migsflow.com/html/faq.html">
+  <meta property="og:title" content="FAQ | MigsFlow Web Design">
+  <meta property="og:description" content="Quick answers to common questions about pricing, timelines, hosting, and the website build process.">
+  <meta property="og:image" content="https://migsflow.com/images/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://migsflow.com/html/faq.html">
+  <meta name="twitter:title" content="FAQ | MigsFlow Web Design">
+  <meta name="twitter:description" content="Quick answers to common questions about pricing, timelines, hosting, and the website build process.">
+  <meta name="twitter:image" content="https://migsflow.com/images/og-cover.png">
+
+
+  <!-- Preload critical fonts -->
+  <link rel="preload" as="font" href="../fonts/orbitron-v35-latin-600.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="../fonts/poppins-v24-latin-regular.woff2" type="font/woff2" crossorigin>
+
+  <!-- Critical CSS -->
+  <link rel="stylesheet" href="../css/faq.css">
+
+
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" href="../favicon.ico">
+  <link rel="manifest" href="../site.webmanifest">
+
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <!-- Brand -->
+    <a class="brand" href="../index.html" aria-label="MigsFlow home">
+      <img src="../images/migsflow-logo(2).svg" alt="MigsFlow logo" width="150" height="40" fetchpriority="high" decoding="async">
+    </a>
+
+    <!-- Mobile toggle -->
+    <button
+      class="nav__toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="primary-nav"
+      aria-label="Open menu"
+    >
+      <span class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+    </button>
+
+    <!-- Links -->
+    <div class="nav__links" id="primary-nav">
+      <a class="nav__link" href="../index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="services.html">Services</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+      <a class="nav__link is-active" href="#faq">FAQ</a>
+    </div>
+
+    <!-- CTA -->
+    <a class="nav__cta" href="contact.html">
+      <span>Get a Quote</span>
+      <span class="nav__cta-icon" aria-hidden="true">
+        <!-- arrow icon -->
+        <img class="nav-code-logo" src="../images/vectors/code-blue.svg" alt="" decoding="async">
+      </span>
+    </a>
+  </nav>
+</header>
+<main>
+
+
+<!-- FAQ  SECTION -->
+<section class="faq fade-section" id="faq">
+  <div class="faq__container">
+
+    <div class="faq__pill fade-on-load">
+      <span class="faq__dot" aria-hidden="true"></span>
+      <span class="poppins">FAQ</span>
+    </div>
+
+    <h2 class="faq__title fade-on-load">
+      <span class="faq__title-accent">Frequently</span> Asked<br>
+      Questions
+    </h2>
+
+    <p class="faq__subtext fade-on-load">
+      Discover answers to common questions about the design process, pricing, and what it’s like working together.
+    </p>
+
+    <!-- THIS WRAPPER CONTROLS THE WIDTH FOR TABS + QUESTIONS -->
+    <div class="faq__shell fade-on-load">
+
+      <!-- Tabs (same width as questions) -->
+      <div class="faq__tabs fade-on-load" role="tablist" aria-label="FAQ categories">
+        <button class="faq__tab is-active fade-on-load" role="tab" aria-selected="true" aria-controls="panel-design" id="tab-design" type="button">
+          Design &amp; Process
+        </button>
+
+        <button class="faq__tab fade-on-load" role="tab" aria-selected="false" aria-controls="panel-pricing" id="tab-pricing" type="button">
+          Pricing &amp; Payments
+        </button>
+
+        <button class="faq__tab fade-on-load" role="tab" aria-selected="false" aria-controls="panel-tech" id="tab-tech" type="button">
+          Development &amp; Tech
+        </button>
+
+        <button class="faq__tab fade-on-load" role="tab" aria-selected="false" aria-controls="panel-policy" id="tab-policy" type="button">
+          Working With Me / Policies
+        </button>
+      </div>
+
+      <!-- Panels -->
+      <div class="faq__panels fade-on-load">
+
+        <!-- PANEL 1 -->
+        <div class="faq__panel is-active fade-on-load" role="tabpanel" id="panel-design" aria-labelledby="tab-design">
+          <ul class="faq__list">
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="true">
+                Do you design the websites yourself?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>
+                    I focus on building and developing your website (clean, responsive, hand-coded). I'm basically responsible for bringing your website to life!<br><br>For visual design,
+                    I collaborate with a professional UX/UI designer so every page feels intentional and polished.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Will I be communicating with the designer directly?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>
+                    No, you'll communicate with me as your main point of contact. I'll gather any feedback you have for the designer and make sure everything is running smoothly!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Can you match an existing brand or website style?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>
+                    Yes! If you have any websites/ brands that you take inspiration from, I'll let me designer know.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                How long does the design phase usually take?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>
+                    The timeline really depends on the project scope and how quickly you’re able to send feedback. <br><br>Once we have your content and your direction, things usually move pretty quickly. Either way, I’ll give you an estimated timeline up front.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                How do you handle communication and timelines?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Communication is simple and consistent. Most updates and feedback are handled through email, and if something is urgent, we can use text or a quick call. <br><br>You’ll also have a clear timeline from the start, and I’ll send progress updates at key milestones so you always know where we are in the process. The faster feedback and content are provided, the faster your website can be completed.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- PANEL 2 -->
+        <div class="faq__panel fade-on-load" role="tabpanel" id="panel-pricing" aria-labelledby="tab-pricing">
+          <ul class="faq__list">
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Does working with a UX/UI designer affect the price?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes, working with a UX/UI designer adds to the overall cost of the project. My designer charges based on the complexity and scope of the design work required.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Do you charge separately from the designer?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes. I charge for the development side of the project, bringing your website to life! That includes coding/building the site, helping set up your domain, and getting everything connected to hosting so your site is live and running smoothly.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Why don't you show pricing on your website?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>I don’t list pricing because each website is customized. To keep things fair, I quote based on your project’s needs so you’re paying for exactly what you need, not a one-size-fits-all package. <br><br> Once I learn what you’re looking for, I’ll send a clear quote and timeline before we begin!</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                What payment methods do you accept?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>I accept payments through Stripe so clients can pay by card, Apple Pay, or Google Pay. If you prefer PayPal, I can do that too. For returning clients, Zelle is also an option.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Is a deposit required?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes. A deposit is required to reserve your spot and begin work. My minimum deposit is $100, and for most projects it is 50 percent of the total quote.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Do you offer payment plans?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>For most projects, it is a deposit plus a final payment. For larger projects, I can split payments into a few milestones so it feels more manageable. Just ask and we will choose what makes sense.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- PANEL 3 -->
+        <div class="faq__panel fade-on-load" role="tabpanel" id="panel-tech" aria-labelledby="tab-tech">
+          <ul class="faq__list">
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Do you use templates or website builders like Wix or WordPress?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>No. I do not use templates or website builders like Wix or WordPress. Everything I build is hand coded from scratch, so your site feels like your brand and not a copy and paste of someone else’s.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                What's the benefit of custom code over using something like WordPress?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Custom code is lean, fast, and built only with what your website actually needs. Website builders often come with extra features and plugins running in the background that you may never use, which can slow things down. <br><br>It can also be more secure. With a hand coded site, there are fewer moving parts, fewer third party plugins, and no admin dashboard for someone to try to break into. In other words, there’s simply less stuff for hackers to mess with. Clean, simple, and a lot harder to poke at. <br><br>And of course, custom code gives you more flexibility and uniqueness. Your site is built around your brand, not boxed into a template. Basically, no extra fluff. Just the good stuff.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Will my website work on phones and tablets?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes! I build every website to be fully responsive, which means it will look great and work smoothly on phones, tablets, laptops, and desktops. <br><br> I test it across screen sizes to make sure everything stays clean, readable, and easy to use no matter what device your customers are on.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Will I be able to make updates to my site later?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes, with a small note. Since your site is hand coded, you cannot just log into a dashboard and click a few buttons to change things unless you know how to code. <br><br> Most clients simply send me what they want updated and I handle it quickly. Think of me like your website’s personal mechanic. You drive it, I keep it running and looking fresh.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                What if I want to switch developers in the future? Can I do that?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Of course! You will have full ownership of your website files and source code, so switching is totally possible. <br><br>If you ever decide to work with someone else, you will not be trapped or locked in. Even if I get abducted by aliens, you will still have everything you need to keep your site going.</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- PANEL 4 -->
+        <div class="faq__panel fade-on-load" role="tabpanel" id="panel-policy" aria-labelledby="tab-policy">
+          <ul class="faq__list">
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+               What happens if I need to cancel the project after we start?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>If you need to cancel after we’ve started, you can, and there's no hard feelings! Your initial deposit reserves your spot on my schedule and covers time already invested, so it’s non refundable. <br><br>If additional payments have been made, I’ll bill for work completed up to the cancellation date, and any remaining balance for unfinished work will be refunded.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Are there refunds?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Refunds depend on the stage of the project. The deposit is non refundable once work begins. <br><br>After that, payments are tied to progress, so you’re only paying for work that’s been completed. Domain and hosting costs paid to third party providers are non refundable.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Do you offer ongoing support after the website is launched?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes! If you want ongoing support, I offer a $50/month maintenance plan for routine updates and site care.<br><br>If you don’t need monthly support, you can also request one time updates as needed, and I’ll quote a flat rate based on the change so you know the cost up front.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item fade-on-load">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Will I need to buy anything else like a domain or hosting?
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  <p>Yes. You’ll purchase your domain (your website name) and a hosting plan so your site can be live online. I’ll guide you through the setup and connect everything for you. <br><br>I recommend buying your domain through Porkbun and hosting through Netlify, and the hosting cost is typically around $9–$20/month depending on your needs and traffic.</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- STAR BACKGROUND -->
+  <div class="star-field">
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>  
+</section>
+
+
+
+<!-- =============================== -->
+<!-- ===== CTA / GET A QUOTE ======= -->
+<!-- =============================== -->
+<section class="cta fade-section" id="quote-cta">
+  <div class="cta__container">
+    <div class="cta__card fade-on-load">
+      <h2 class="cta__title fade-on-load">Curious about working<br>together?</h2>
+
+      <p class="cta__subtext fade-on-load">
+        I'd love to hear what you're working on. Let's explore whether this<br>
+        could be a good fit for you!
+      </p>
+
+      <a class="cta__btn fade-on-load" href="contact.html">
+        <span>Get A Quote</span>
+        <img class="code-icon" src="../images/vectors/code-blue.svg" alt="" width="24" height="24" decoding="async">
+      </a>
+    </div>
+  </div>
+
+  <!-- STAR BACKGROUND -->
+  <div class="star-field">
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>  
+</section>
+
+
+
+<!-- ===================== -->
+<!-- ====== FOOTER ======= -->
+<!-- ===================== -->
+</main>
+
+<footer class="footer fade-section" id="contact">
+  <div class="footer__container">
+
+    <!-- Top row -->
+    <div class="footer__top">
+
+      <!-- Left: brand + blurb + socials -->
+      <div class="footer__brand fade-on-load">
+        <a class="footer__logo fade-on-load" href="#home" aria-label="MigsFlow home">
+          <img class="fade-on-load" src="../images/migsflow-logo(2).svg" alt="MigsFlow logo" width="150" height="40" loading="lazy" decoding="async">
+        </a>
+
+        <p class="footer__blurb fade-on-load">
+          I build custom-coded websites for small businesses that want to feel good about
+          their online presence.
+        </p>
+
+        <div class="footer__social fade-on-load" aria-label="Social links">
+
+          <a class="footer__social-btn fade-on-load" href="https://www.instagram.com/migsflow/" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M17.2 6.8h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </a>
+
+          <a class="footer__social-btn fade-on-load" href="https://www.linkedin.com/in/mfebres0919/" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6.5 9H3.8v11H6.5V9ZM5.1 3.5a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2ZM20.2 13.3c0-2.6-1.4-4.5-4.1-4.5-1.4 0-2.4.7-2.8 1.4V9H10.8v11h2.7v-5.7c0-1.5.3-3 2.1-3 1.8 0 1.8 1.7 1.8 3.1V20H21v-6.7Z" fill="currentColor"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: link columns -->
+      <div class="footer__cols fade-on-load" aria-label="Footer navigation">
+        <div class="footer__col fade-on-load">
+          <h3 class="footer__heading fade-on-load">Navigation</h3>
+          <a class="footer__link fade-on-load" href="../index.html">Home</a>
+          <a class="footer__link fade-on-load" href="about.html">About</a>
+          <a class="footer__link fade-on-load" href="services.html">Services</a>
+          <a class="footer__link fade-on-load" href="contact.html">Contact</a>
+          <a class="footer__link fade-on-load" href="#faq">FAQ</a>
+        </div>
+
+        <div class="footer__col fade-on-load">
+          <h3 class="footer__heading fade-on-load">Contact</h3>
+
+          <!-- Email -->
+          <a class="footer__link fade-on-load" href="/cdn-cgi/l/email-protection#81ece8e6f2e7edeef6c1eef4f5edeeeeeaafe2eeec">
+            <img class="email" src="../images/logos/mail.svg" alt="" width="20" height="20" loading="lazy" decoding="async">
+            <span class="__cf_email__" data-cfemail="14797d736772787b63547b6160787b7b7f3a777b79">[email&#160;protected]</span>
+          </a>
+
+          <!-- Phone -->
+          <a class="footer__link fade-on-load"
+            href="tel:+18326480539">
+            <img class="phone" src="../images/logos/phone-call.svg" alt="" width="20" height="20" loading="lazy" decoding="async">
+            (832) 648-0539
+          </a>
+
+          <!-- Location (opens maps) -->
+          <a class="footer__link fade-on-load"
+            href="https://www.google.com/maps/search/?api=1&query=Charleston%2C%20SC"
+            target="_blank" rel="noopener">
+            <img class="location" src="../images/icons/location.svg" alt="" width="20" height="20" loading="lazy" decoding="async">
+            Charleston, SC
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Giant word + circle CTA -->
+    <div class="footer__hero fade-on-load" aria-hidden="true">
+      <div class="footer__giant fade-on-load">LET’S COLLABORATE</div>
+      <a class="footer__bubble fade-on-load" href="contact.html" aria-label="Get in touch">
+        <span>GET IN TOUCH</span>
+      </a>
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer__bottom fade-on-load">
+      <div class="copyright fade-on-load"><p class="fade-on-load">© Copyright 2025 MigsFlow Web Design</p><div>
+    </div>
+
+  </div>
+
+  <!-- STAR BACKGROUND -->
+  <div class="star-field">
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>   
+</footer>
+
+<script defer src="../main.js"></script>
+
+</body>
+</html>
